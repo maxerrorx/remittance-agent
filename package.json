@@ -1,0 +1,16 @@
+﻿{
+  "name": "unicity-remittance-agent",
+  "version": "1.0.0",
+  "description": "Autonomous remittance batching agent",
+  "main": "backend/agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/agent.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0",
+    "axios": "^1.6.0"
+  }
+}
